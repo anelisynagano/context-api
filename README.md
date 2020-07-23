@@ -15,3 +15,11 @@
 8. access the state on `User.js` with `useContext()`
 
 9. don't forget to destructure the `useContext` object that will receive `UserContext` as an argument.
+
+10. render 'user is online' if the state is `true` or 'user is offline' if the state is `false`
+
+11. on `UserContext.js` create a method `handleClick` that will change the state of `isUserOnline` from true to false and vice-versa
+
+12. pass this method to the context value
+
+13. access `handleClick` from `User.js`, that will toggle the user status on a click of a button.
